@@ -20,7 +20,7 @@ public class LoginController {
         if(registerDTO!=null){
             return "Success!";
         }else{
-            return "failure";
+            return "failure!";
         }
     }
 }
